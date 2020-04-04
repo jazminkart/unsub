@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Unsubscriber{% endblock %}
+
+{% block body %}
+    <h1>Unsubscriber</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ unsubscriber.id }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ unsubscriber.email }}</td>
+            </tr>
+            <tr>
+                <th>Hashed_email</th>
+                <td>{{ unsubscriber.hashedEmail }}</td>
+            </tr>
+            <tr>
+                <th>OfferId</th>
+                <td>{{ unsubscriber.offerId }}</td>
+            </tr>
+            <tr>
+                <th>Spsr</th>
+                <td>{{ unsubscriber.spsr }}</td>
+            </tr>
+            <tr>
+                <th>Isp</th>
+                <td>{{ unsubscriber.isp }}</td>
+            </tr>
+            <tr>
+                <th>Unsub_at</th>
+                <td>{{ unsubscriber.unsubAt ? unsubscriber.unsubAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('unsubscriber_index') }}">back to list</a>
+
+    <a href="{{ path('unsubscriber_edit', {'id': unsubscriber.id}) }}">edit</a>
+
+    {{ include('unsubscriber/_delete_form.html.twig') }}
+{% endblock %}

@@ -1,0 +1,14 @@
+[2020-04-02 14:38:56.935] [main] [info] update#setState idle
+[2020-04-02 14:39:26.950] [main] [info] update#setState checking for updates
+[2020-04-02 14:39:27.043] [main] [info] update#setState idle
+[2020-04-02 15:39:26.975] [main] [info] update#setState checking for updates
+[2020-04-02 15:40:17.161] [main] [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:2623:21)
+    at SimpleURLLoaderWrapper.emit (events.js:203:13)
+[2020-04-02 15:40:17.161] [main] [info] update#setState idle
+[2020-04-02 16:39:27.016] [main] [info] update#setState checking for updates
+[2020-04-02 16:39:31.166] [main] [info] update#setState idle
+[2020-04-02 17:39:27.065] [main] [info] update#setState checking for updates
+[2020-04-02 17:39:47.363] [main] [info] update#setState idle
+[2020-04-02 18:39:27.095] [main] [info] update#setState checking for updates
+[2020-04-02 18:39:27.497] [main] [info] update#setState idle

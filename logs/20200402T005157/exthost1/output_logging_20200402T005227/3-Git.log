@@ -1,0 +1,108 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :.env.test
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/.env.test
+> git cat-file -s d0486867ed386d60931f80353f41aaef61974081
+> git show :.env
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/.env
+> git cat-file -s f42e34edbe5c6b450188e43afaf7a8e6b0825d1c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git check-ignore -v -z --stdin
+> git show :src/Entity/Unsubscriber.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Entity/Unsubscriber.php
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git show :src/Entity/Unsubscriber.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Entity/Unsubscriber.php
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git show :src/Entity/Unsubscriber.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Entity/Unsubscriber.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/Controller/UnsubscriberController.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Controller/UnsubscriberController.php
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git check-ignore -v -z --stdin
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git show :src/Entity/Unsubscriber.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Entity/Unsubscriber.php
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :src/Controller/UnsubscriberController.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Controller/UnsubscriberController.php
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :src/Entity/Unsubscriber.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Entity/Unsubscriber.php
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :src/Entity/Unsubscriber.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Entity/Unsubscriber.php
+> git show :src/Controller/UnsubscriberController.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Controller/UnsubscriberController.php
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git show :src/Controller/UnsubscriberController.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Controller/UnsubscriberController.php
+> git show :src/Entity/Unsubscriber.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Entity/Unsubscriber.php
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :src/DataFixtures/AppFixtures.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/AppFixtures.php
+> git show :src/DataFixtures/Unsubscriberfixture.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/DataFixtures/Unsubscriberfixture.php
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :templates/unsubscriber/new.html.twig
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/templates/unsubscriber/new.html.twig
+> git show :templates/unsubscriber/_form.html.twig
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/templates/unsubscriber/_form.html.twig
+> git show :src/Form/UnsubscriberType.php
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/src/Form/UnsubscriberType.php
+> git show :templates/unsubscriber/_form.html.twig
+> git ls-files --stage -- /home/youness/Documents/cours/php/symfonyProjects/unsubscribersManager/templates/unsubscriber/_form.html.twig

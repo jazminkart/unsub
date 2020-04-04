@@ -1,0 +1,24 @@
+[2020-04-02 14:38:58.776] [exthost] [info] extension host started
+[2020-04-02 14:38:58.992] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:twig"}
+[2020-04-02 14:38:58.992] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/youness/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2020-04-02 14:38:59.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-04-02 14:38:59.127] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2020-04-02 14:38:59.141] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-02 14:38:59.141] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-04-02 14:38:59.144] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-02 14:38:59.144] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-04-02 14:38:59.172] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-02 14:38:59.172] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-04-02 14:38:59.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-02 14:38:59.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-04-02 14:38:59.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-02 14:38:59.249] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-04-02 14:38:59.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-02 14:38:59.255] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-04-02 14:38:59.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-02 14:38:59.257] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-04-02 14:38:59.262] [exthost] [info] ExtensionService#_doActivateExtension bajdzis.vscode-twig-pack {"startup":true,"extensionId":{"value":"bajdzis.vscode-twig-pack","_lower":"bajdzis.vscode-twig-pack"},"activationEvent":"*"}
+[2020-04-02 14:38:59.262] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/youness/.vscode/extensions/bajdzis.vscode-twig-pack-1.1.0/extension
+[2020-04-02 14:38:59.269] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2020-04-02 14:38:59.269] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/youness/.vscode/extensions/zignd.html-css-class-completion-1.19.0/out/src/extension
+[2020-04-02 14:39:00.658] [exthost] [info] eager extensions activated

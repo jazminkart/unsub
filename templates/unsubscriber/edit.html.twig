@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Unsubscriber{% endblock %}
+
+{% block body %}
+    <h1>Edit Unsubscriber</h1>
+
+    {{ include('unsubscriber/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('unsubscriber_index') }}">back to list</a>
+
+    {{ include('unsubscriber/_delete_form.html.twig') }}
+{% endblock %}
