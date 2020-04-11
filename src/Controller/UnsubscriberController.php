@@ -41,7 +41,7 @@ class UnsubscriberController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $email = $form->get('email')->getData();
+            $email = strtolower( $form->get('email')->getData() );
             $hashed_email=md5($email);
             $offerId=$request->query->get('offID');
             $Spsr=$request->query->get('Spsr');
